@@ -1,0 +1,14 @@
+{
+  "name": "contact-us",
+  "version": "1.0.0",
+  "description": "contact us portlan",
+  "main": "index.js",
+  "scripts": {
+    "c": "node-sass sass/style.scss css/style.css"
+  },
+  "author": "portlan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+	<link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h2 class="title__h">آیا می خواهید پروژه ثبت کنید؟</h2>
+		</div>
+		<div class="title__decription">
+			<p class="title__p">به سادگی با پورتلن</p>
+		</div>
+		<div class="form__body">
+			<form action="#" class="form">
+				<div class="field1">
+					<div class="field">
+						<input type="text" name="fullName" class="form__input input-check" id="fUllName" >
+						<span class="form__tooltip">نام و نام خانوادگی را درست وارد کنید</span>
+						<label for="fullName">نام و نام خانوادگی</label>
+					</div>
+					<div class="field">
+						<input type="text" name="companyName" class="form__input input-check" id="companyName" >
+						<span class="form__tooltip">نام شرکت را وارد کنید</span>
+						<label for="companyName">نام شرکت</label>
+
+					</div>
+				</div>
+				<div class="field1">
+					<div class="field">
+						<input type="email" name="email" class="form__input input-check" id="email"  >
+						<span class="form__tooltip">...</span>
+						<label for="email">ایمیل</label>
+					</div>
+					
+					<div class="field">
+						<input type="tel" name="phone" class="form__input input-check" id="phone"  maxlength="10">
+						<span class="form__tooltip">...</span>
+						<label for="phone">تلفن همراه</label>
+					</div>
+				</div>
+				
+				
+				<div class="field">
+					<textarea  name="pDescription" class="form__text input-check" id="pDescription"  rows="4" ></textarea>
+					<span class="form__tooltip">...</span>
+					<label for="pDescription">توضیحات پروژه</label>
+
+				</div>
+				<div class="attach">
+					<button class="attach__tigger">
+						<svg class="attach__tigger--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-attachment"></use>
+						</svg>
+						<div class="attach__tigger--text">افزودن فایل</div>
+					</button>
+			
+					<input type="file" multiple  class="attach__file file"/>
+				</div>
+				<div class="attach__description"> تا پنج فایل قابل می توانید بارگزاری کنید.حجم هر فایل باید کمتر از ۵ مگابایت باشد.  </div>
+				<div class="field2">
+					<button type="submit" class="submit">ثبت</button>
+				
+					<div class="cookies">
+						<p class="cookie"> با ثبت این فرم،رضایت می دهم تا پورتلن داده های شخصی من را طبق <span> سیاست حفظ حریم خصوصی پورتلن</span> پردازش کند.</p>
+					</div>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+<script src="js/file.js"></script>	
+</body>
+</html>

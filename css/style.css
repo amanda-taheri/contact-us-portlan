@@ -1,0 +1,250 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts");
+  src: url("/fonts/IRANSansWeb-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb-Bold.woff2") format("woff2"), url("/fonts/IRANSans-Bold-web.woff") format("woff"), url("/fonts/IRANSansWeb-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/IRANSans-Medium.eot");
+  src: url("/fonts/IRANSans-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSans-Medium.woff2") format("woff2"), url("/fonts/IRANSans-Medium.woff") format("woff"), url("/fonts/IRANSans-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/IRANSansWeb-Light.eot");
+  src: url("/fonts/IRANSansWeb-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb-Light.woff2") format("woff2"), url("/fonts/IRANSansWeb-Light.woff") format("woff"), url("/fonts/IRANSansWeb-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/IRANSansWeb.eot");
+  src: url("/fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb.woff2") format("woff2"), url("/fonts/IRANSansWeb.woff") format("woff"), url("/fonts/IRANSansWeb.ttf") format("truetype"); }
+
+*, *::before, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'IRANSans';
+  box-sizing: border-box; }
+
+.title__h {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  font-weight: 300;
+  margin: 0 0 20px;
+  position: relative; }
+
+.title__p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.7rem;
+  line-height: 3.8rem;
+  position: relative; }
+  .title__p::before {
+    content: "";
+    background-color: #58c344;
+    height: 1px;
+    width: 4rem;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+span {
+  color: #58c344; }
+
+.cookies {
+  width: 60%;
+  align-self: center;
+  font-weight: 100;
+  margin-top: 2rem;
+  text-align: center; }
+
+.cookie {
+  font-size: 1.6rem;
+  user-select: none; }
+
+label {
+  font: inherit; }
+
+.container {
+  background-image: url(../img/xbg-form-gray.jpg.pagespeed.ic.ehU-ftk8jC.webp);
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 8rem;
+  padding-top: 3rem;
+  position: relative; }
+
+.form__body {
+  background-color: white;
+  margin-top: 2rem;
+  width: 90rem;
+  box-shadow: 0 0 30px 2px #d9d9d9; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem; }
+  .form__input, .form__text {
+    position: relative;
+    font-size: 1.7rem;
+    font-family: inherit;
+    display: block;
+    font-weight: 300;
+    outline: 0;
+    background-color: white;
+    width: 100%;
+    padding: 2.5rem 2rem 1.4rem 6rem;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    transition: all 0.2s;
+    cursor: text;
+    text-align: start; }
+    .form__input:focus, .form__text:focus {
+      box-shadow: 0 0 0.1rem 0.1rem #58c344; }
+  .form__input:focus ~ label {
+    font-size: 1.3rem;
+    transform: scale(0.98) translate(-2%, -30%);
+    padding-right: 1rem; }
+  .form__text:not(:focus) ~ label {
+    font-size: 1.3rem;
+    transform: scale(0.98) translate(-2%, -30%);
+    padding-right: 1rem; }
+  .form__text:focus ~ label {
+    font-size: 1.3rem;
+    transform: scale(0.98) translate(-2%, -30%);
+    padding-right: 1rem; }
+
+.field {
+  flex: 0 0 48%;
+  position: relative; }
+
+.field1 {
+  display: flex;
+  justify-content: space-between; }
+
+.field2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem; }
+
+.submit {
+  background-color: #58c344;
+  color: #d9d9d9;
+  border: 2px solid #58c344;
+  cursor: pointer;
+  line-height: 2.2rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  width: 20rem;
+  align-self: center;
+  font-size: xx-large;
+  font-weight: 100;
+  font-family: inherit; }
+  .submit:hover {
+    background-color: white;
+    color: #58c344; }
+
+label {
+  text-indent: 0;
+  font-size: 1.7rem;
+  line-height: 6rem;
+  position: absolute;
+  display: block;
+  color: #a4a8ad;
+  top: 0;
+  left: 0;
+  transition: 0.1s linear;
+  pointer-events: none;
+  text-align: right;
+  z-index: 4;
+  background-color: transparent !important;
+  padding: 1rem 3rem 2rem 1rem;
+  width: 100%;
+  height: 6rem; }
+
+.attach {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  .attach__tigger {
+    padding-top: 1.5rem;
+    display: flex;
+    text-align: right;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    position: relative;
+    height: 2.4rem;
+    color: #58c344;
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer; }
+    .attach__tigger--icon {
+      width: 2rem;
+      height: 2rem;
+      fill: #58c344; }
+  .attach__file {
+    padding-top: 2rem; }
+  .attach__description {
+    padding-top: 2rem;
+    background-color: #fff;
+    padding-bottom: 5px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #a6aaaf;
+    text-align: right; }
+
+.invalid.form__tooltip {
+  display: block;
+  padding: 5px 8px;
+  background: #f83535;
+  color: #fff;
+  font-size: 13px;
+  line-height: 16px;
+  position: absolute;
+  top: 100%;
+  margin-top: -2.5rem;
+  right: 10px;
+  max-width: 96%;
+  z-index: 3;
+  text-align: center; }
+  .invalid.form__tooltip::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 11px solid #f83535;
+    position: absolute;
+    top: -10px; }
+
+.form__tooltip {
+  display: none; }
