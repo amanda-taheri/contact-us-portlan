@@ -151,6 +151,9 @@ label {
 .field1 {
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 56.25em) {
+    .field1 {
+      flex-direction: column; } }
 
 .field2 {
   display: flex;

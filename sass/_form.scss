@@ -87,6 +87,11 @@
 .field1{
 	display: flex;
 	justify-content: space-between;
+	@media only screen and (max-width: $bp-medium){
+		flex-direction: column;
+	}
+		
+	
 	
 }
 
