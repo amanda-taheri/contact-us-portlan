@@ -49,6 +49,10 @@
 			box-shadow: 0 0 .1rem .1rem rgba($color-green, 1);
 		}
 
+		&:invalid{
+			box-shadow: 0 0 .1rem .1rem rgba(red, 1);
+		}
+
 		&:not(:placeholder-shown) ~ label {
 			font-size: 1.3rem;
 			transform: scale(0.98)  translate(-2% , -30%);
@@ -70,6 +74,7 @@
 		&__tooltip{
 			display: none;
 		}
+		
 	
 }
 
@@ -158,7 +163,7 @@ label{
 	}
 	&__file{
 		padding-top: 2rem;
-		// display: none;
+		display: none;
 	}
 	&__description{
 		padding-top: 2rem;

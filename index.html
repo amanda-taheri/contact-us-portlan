@@ -19,7 +19,7 @@
 			<form action="#" class="form">
 				<div class="field1">
 					<div class="field">
-						<input type="text" name="fullName" class="form__input input-check" id="fUllName" placeholder=" ">
+						<input type="text" name="fullName" class="form__input input-check" id="fUllName" placeholder=" " >
 						<span class="form__tooltip">نام و نام خانوادگی را وارد کنید</span>
 						<label for="fullName" >نام و نام خانوادگی</label>
 					</div>
@@ -32,13 +32,13 @@
 				</div>
 				<div class="field1">
 					<div class="field">
-						<input type="email" name="email" class="form__input input-check" id="email" placeholder=" " >
+						<input type="email" name="email" class="form__input input-check" id="email" placeholder=" "  pattern='\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'>
 						<span class="form__tooltip">ایمیل را وارد کنید</span>
 						<label for="email">ایمیل</label>
 					</div>
 					
 					<div class="field">
-						<input type="tel" name="phone" class="form__input input-check" id="phone"  maxlength="10" placeholder=" ">
+						<input type="tel" name="phone" class="form__input input-check" id="phone"  maxlength="11" placeholder=" " pattern='09(1[0-9]|3[1-9])-?[0-9]{3}-?[0-9]{4}'>
 						<span class="form__tooltip">تلفن همراه را وارد کنید</span>
 						<label for="phone">تلفن همراه</label>
 					</div>

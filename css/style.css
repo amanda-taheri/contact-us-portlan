@@ -127,6 +127,8 @@ label {
     text-align: start; }
     .form__input:focus, .form__text:focus {
       box-shadow: 0 0 0.1rem 0.1rem #58c344; }
+    .form__input:invalid, .form__text:invalid {
+      box-shadow: 0 0 0.1rem 0.1rem red; }
     .form__input:not(:placeholder-shown) ~ label, .form__text:not(:placeholder-shown) ~ label {
       font-size: 1.3rem;
       transform: scale(0.98) translate(-2%, -30%);
@@ -213,7 +215,8 @@ label {
       height: 2rem;
       fill: #58c344; }
   .attach__file {
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    display: none; }
   .attach__description {
     padding-top: 2rem;
     background-color: #fff;
