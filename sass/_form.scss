@@ -13,19 +13,18 @@
 
 }
 
-.form__body{
-	background-color: white;
-	margin-top: 2rem;
-	width: 90rem;
-	box-shadow: 0 0 30px 2px #d9d9d9;
-	
-}
 
 .form{
 	display: flex;
 	flex-direction: column;
 	padding: 6rem;
 	
+	&__body{
+		background-color: white;
+		margin-top: 2rem;
+		width: 90rem;
+		box-shadow: 0 0 30px 2px #d9d9d9;
+	}
 
 	&__input , &__text{
 		position: relative;
@@ -49,38 +48,36 @@
 		&:focus{
 			box-shadow: 0 0 .1rem .1rem rgba($color-green, 1);
 		}
-		
-	}
-	&__input:focus  ~ label {
-		font-size: 1.3rem;
-		transform: scale(0.98)  translate(-2% , -30%);
-		padding-right: 1rem;
-		
-	}
-	&__text:not(:focus) ~ label{
-		font-size: 1.3rem;
-		transform: scale(0.98)  translate(-2% , -30%);
-		padding-right: 1rem;
-		
-	}
 
-	&__text:focus ~ label {
-		font-size: 1.3rem;
-		transform: scale(0.98)  translate(-2% , -30%);
-		padding-right: 1rem;
+		&:not(:placeholder-shown) ~ label {
+			font-size: 1.3rem;
+			transform: scale(0.98)  translate(-2% , -30%);
+			padding-right: 1rem;
+		}
+	}
+		&__input:focus  ~ label {
+			font-size: 1.3rem;
+			transform: scale(0.98)  translate(-2% , -30%);
+			padding-right: 1rem;
+			
+		}
 		
-	}
+		&__text:focus ~ label {
+			font-size: 1.3rem;
+			transform: scale(0.98)  translate(-2% , -30%);
+			padding-right: 1rem;
+		}
+		&__tooltip{
+			display: none;
+		}
 	
-	}
+}
 
 
 .field{
 	flex: 0 0 48%;
 	position: relative;	
 }
-
-
-	
 
 .field1{
 	display: flex;
@@ -199,7 +196,4 @@ label{
 		position: absolute;  
 		top: -10px; 
 	}
-}
-.form__tooltip{
-	display: none;
 }
