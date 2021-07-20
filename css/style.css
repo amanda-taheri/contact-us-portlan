@@ -107,6 +107,12 @@ label {
     margin-top: 2rem;
     width: 90rem;
     box-shadow: 0 0 30px 2px #d9d9d9; }
+    @media only screen and (max-width: 56.25em) {
+      .form__body {
+        width: 70%; } }
+    @media only screen and (max-width: 25em) {
+      .form__body {
+        width: 100%; } }
   .form__input, .form__text {
     position: relative;
     font-size: 1.7rem;
