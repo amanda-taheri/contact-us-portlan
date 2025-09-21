@@ -1,1 +1,12 @@
-*node_modules/*
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Web / Node
+node_modules/
+
+# VS Code
+.vscode/
