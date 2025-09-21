@@ -6,7 +6,7 @@ Provides a simple and user-friendly way for visitors to send messages or feedbac
 ---
 
 ## 📸 Preview
-![contact us page Screenshot](img/home.jpg)
+![contact us page Screenshot](img/Home.jpg)
 
 ---
 
